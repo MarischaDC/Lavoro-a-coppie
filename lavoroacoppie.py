@@ -1,7 +1,7 @@
 import 
 class FileReader:
-    def __init__(self, file_path):
-        self.file_path = file_path
+    def __init__(self, data_txt):
+        self.data_txt = 'data.txt'
 
     def read_file(self):
         try:
